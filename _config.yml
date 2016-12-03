@@ -54,7 +54,7 @@ mathjax: false      #enable mathjax if true
 
 ### Creative Commons License Support, see http://creativecommons.org/
 ### you can choose: by , by-nc , by-nc-nd , by-nc-sa , by-nd , by-sa , zero
-creative_commons: none
+creative_commons: by-sa
 
 #### Author information
 author:
