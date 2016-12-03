@@ -237,3 +237,71 @@
     margin 1em 0 0
   div
     padding 0.5em 0
+
+#authorInfo
+  overflow hidden
+  text-align center
+  padding-top 2em
+  margin-bottom 1.5em
+  border-bottom 1px solid color-gray
+  background-position left bottom
+  background-repeat repeat-x
+  background-size 5px auto
+  @media mini
+    padding-top 0.5em
+  @media tablet
+    padding-top 1em
+
+.author-info
+  margin 0.8em 0 0.2em
+  line-height 28px
+
+.author-img
+  width w=(110/16)em
+  height w
+  margin 0 auto
+  background no-repeat url("../"+author-img) left top
+  background-size w w
+  border-radius (w/2)
+  transition transform 2s ease-out
+  &:hover
+    transform rotateZ(360deg)
+  @media tablet
+    float none
+    width w=(110/12)em
+    height w
+    background-size w w
+    border-radius (w/2)
+    margin 0 auto
+  @media mini
+    margin 0 1em 0 0
+    float none
+    margin 0 auto
+
+.social-info
+  width 100%
+  margin 50 auto
+  overflow hidden
+  float left
+  text-align center
+  @media tablet
+    float none
+    width auto
+    padding 0
+    background #2c3e50
+  a
+    display inline-block
+    color #2c3e50
+    font-size font-size+80
+    margin 0.5em
+    @media mini
+      float none
+      margin 0 
+      padding 0.3em
+    @media tablet
+      float none
+      padding 0.3em
+    &:hover:before
+      color color-blue
+
+
